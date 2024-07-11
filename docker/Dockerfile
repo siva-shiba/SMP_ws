@@ -2,7 +2,7 @@ FROM pytorch/pytorch:2.3.1-cuda11.8-cudnn8-runtime
 
 WORKDIR /smp_ws
 
-RUN pip install segmentation-models-pytorch
+RUN pip install segmentation-models-pytorch scikit-learn
 
 # ユーザー指定
 ARG UID

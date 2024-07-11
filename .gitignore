@@ -3,4 +3,5 @@
 datasets/*
 !datasets/.gitkeep
 
-*.pt
+*.pth
+*.log
